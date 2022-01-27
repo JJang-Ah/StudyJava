@@ -15,7 +15,7 @@ public class ArrayEx1 {
 //		System.out.println(num1);
 //				}
 		//배열 - 하나의 이름에 여러개의 값을 기억하는 방법
-//		
+
 		int nums[]= {89,78,98,65,5,89}; //= int[] nums={3,4,1,4,2,2];
 		String chars[]= {"홍길동","관우","제갈량","조조","부처","수트라"};
 		int[] names=new int[5]; // 5개가 들어가는 names 배열 선언 >> names[] = {0,0,0,0,0}

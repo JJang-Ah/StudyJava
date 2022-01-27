@@ -31,6 +31,7 @@ public class ArrayEx9 {
 			}	
 
 		}
+		System.out.println("** 시험 성적표 **");
 		for(int a=0;a<scores.length;a++) {
 				System.out.println((a+1) + "등 " + names[a] + " : " + scores[a] + "점");
 
