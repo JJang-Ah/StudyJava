@@ -3,6 +3,9 @@ package javaObject;
 //은행 계좌 클래스
 
 public class Account {
+	static String bankName="국민은행"; //static > 인스턴스가 아니라 클래스에 소속된 객체
+	static final String home="경기도";
+	
 	//필드(Field) - 객체의 데이터가 저장되는 곳
 	String accountNo; //계좌번호
 	String ownerName; //예금주 이름
@@ -30,9 +33,9 @@ public class Account {
 	}
 	
 	//출금한다.
-	int withdraw (int amount) {
+	int withdraw (int amount) throws Exception{
 		if(balance < amount) {
-			return 0;
+			throw new Exception("잔액이 부족합니다.");
 		}
 		balance -= amount;
 		return amount;	
