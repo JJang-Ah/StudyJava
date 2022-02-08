@@ -1,4 +1,4 @@
-package javaObject;
+package JavaObject;
 
 import java.util.Scanner;
 

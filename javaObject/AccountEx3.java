@@ -1,4 +1,4 @@
-package javaObject;
+package JavaObject;
 
 public class AccountEx3 {
 
@@ -9,7 +9,6 @@ public class AccountEx3 {
 		System.out.println("현재 잔액 : "+chulsu.balance);
 		int amount=0;
 		try { //try안의 블록은 예외처리가 발생 안했을때 처리
-			
 			amount=chulsu.withdraw(50000);
 		System.out.println("인출 금액 : "+ amount);
 		

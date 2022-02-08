@@ -23,7 +23,6 @@ public class BankAppication{
 			case 1:
 				createAccount();
 				break;	// >> while 처음으로 간다.
-			
 			case 2:
 				accountList();
 				break;

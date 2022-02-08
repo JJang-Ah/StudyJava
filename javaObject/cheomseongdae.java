@@ -1,4 +1,4 @@
-package javaObject;
+package JavaObject;
 
 public class cheomseongdae {
 	private static cheomseongdae cheom = new cheomseongdae(); 

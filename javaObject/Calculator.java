@@ -1,4 +1,4 @@
-package javaObject;
+package JavaObject;
 
 public class Calculator {
 	//메소드만 만들것이다.

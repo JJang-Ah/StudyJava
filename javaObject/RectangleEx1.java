@@ -1,18 +1,24 @@
-package javaObject;
+package JavaObject;
 
 public class RectangleEx1 {
 
 	public static void main(String[] args) {
 
 		int area;
-		Rectangle rect1=new Rectangle(10, 20);
-//		System.out.println("사각형의 너비 : " + rect1.width); //필드에 정보가 감춰져잇어서 에러가 난다.
-		
-		area=rect1.getArea();
-		System.out.println("사각형의 넓ㅅ이 : " + area);
-		System.out.println("사각형의 너비 : " + rect1.getWidth());
-		System.out.println("사각형의 높이 : " + rect1.gitHeight());
-		
+		try {
+			Rectangle rect1=new Rectangle(10, 20);
+	//		System.out.println("사각형의 너비 : " + rect1.width); //필드에 정보가 감춰져잇어서 에러가 난다.
+			
+			rect1.setHeight(59);
+			
+			area=rect1.getArea();
+			System.out.println("사각형의 넓ㅅ이 : " + area);
+			System.out.println("사각형의 너비 : " + rect1.getWidth());
+			System.out.println("사각형의 높이 : " + rect1.getHeight());
+		} catch (Exception e) {
+			System.out.println(e.getMessage());
+			
+		}
 	}
 
 }
