@@ -14,6 +14,15 @@ public class Hello { //객체 ex 리모컨
 			System.out.println(i);	
 		}
 		
+		int num1= 10;
+		int num2= 0;
+		if(num2==0) {
+			System.out.println("0으로 나누면 안됩니다.");
+		}else {
+			int result=num1/num2;
+		System.out.println("계산 결과 : " + result);
+		}
+		
 	}
 
 }

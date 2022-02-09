@@ -24,5 +24,7 @@ public class PhysicalInfo {
 	void update(int age) {
 		this.age=age;
 	}
+	public PhysicalInfo() {
+	}
 	
 }
