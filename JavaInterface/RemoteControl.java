@@ -13,7 +13,7 @@ public interface RemoteControl {
 	public void setVolume(int volume);
 	
 	//디폴트 메소드 // 자바8 부터 생긴 기능
-	default void seMute (boolean mute) {
+	default void setMute (boolean mute) {
 		if(mute) {
 			System.out.println("무음 처리 합니다.");
 		}else {

@@ -26,6 +26,8 @@ public class AccountEx2 {
 		
 		printAccount(younghee);
 		printAccount(chanho);
+		printAccount(new Account("123-123", "¿Õ¿Õ∏Ì", 101000));
+		
 			
 	}
 	
