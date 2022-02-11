@@ -33,9 +33,9 @@ public class Account {
 	}
 	
 	//출금한다.
-	public int withdraw (int amount) throws Exception{ //인위적 exception
+	public int withdraw (int amount) throws BalanceLackException{ //인위적 exception >> 에러 떠넘기기
 		if(balance < amount) {
-			throw new Exception("잔액이 부족합니다.");
+			throw new BalanceLackException("잔액이 부족합니다. (" + (amount - balance) +"원 모자람)");
 		}
 		balance -= amount;
 		return amount;	

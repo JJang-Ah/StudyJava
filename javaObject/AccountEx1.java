@@ -27,7 +27,7 @@ public class AccountEx1 {
 			gildong.withdraw(39999999);
 			System.out.println(gildong.balance);
 		} catch(Exception e) {
-			System.out.println(e.getMessage());
+			System.out.println(e.getMessage()+"현재 잔액 : " + gildong.balance);
 		}
 		
 			System.out.println("예금주 이름 : " + chulsu.ownerName);

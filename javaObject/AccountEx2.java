@@ -12,9 +12,12 @@ public class AccountEx2 {
 //		younghee.home="서울"; // static final 이라서 바꿀 수없다.
 		try {
 			younghee.withdraw(50000);
-		}catch(Exception e) {
+		}catch(BalanceLackException e) {
 			System.out.println(e.getMessage());
 		}
+//		catch(Exception e) {
+//			System.out.println(e.getMessage());
+//		}
 		
 		Account chanho = new Account("123-123-123123","찬호찬호박찬호", 0);
 		chanho.deposit(45000);
