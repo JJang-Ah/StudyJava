@@ -1,6 +1,5 @@
 package JavaObject;
 
-import java.util.Scanner;
 
 public class AccountEx2 {
 
