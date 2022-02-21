@@ -11,6 +11,8 @@ public class ListEx1 {
 	// List<E> list = new ArrayList<E>();
 	
 	//ArrayList, Vector, LinkedList
+	//배열 - 크기가 고정이다.
+	//
 	
 	//Set : 순서를 유지하고 저장, 중복 저장 안됨
 	//HashSet, TreeSet
