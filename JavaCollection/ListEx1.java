@@ -1,6 +1,8 @@
 package JavaCollection;
 
 import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
 import java.util.List;
 
 public class ListEx1 {
@@ -19,8 +21,9 @@ public class ListEx1 {
 	//Map : 키와 값의 쌍으로 저장, 키는 중복저장 안됨
 	//HashMap, TreeMap
 	
-	List<String> list = new ArrayList<String>();
+//	List<String> list = new ArrayList<String>();
 	//크기를 정할 수 있다. 
+	List<String> list = Collections.synchronizedList(new ArrayList<String>());
 	list.add("길동길동고길동");
 	list.add("찰스찰스김철수");
 	list.add("고영희");
